@@ -2,11 +2,10 @@
     box-sizing: border-box;
 }
 
-html,
 body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 :root {
@@ -72,4 +71,17 @@ img {
 
 .text-gray {
     color: var(--text-gray);
+}
+
+span {
+    font-family: var(--Abel);
+}
+
+.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
 }
