@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 :root {
@@ -84,4 +84,8 @@ span {
     font-size: 1rem;
     font-family: var(--Livvic);
     cursor: pointer;
+}
+
+.container {
+    margin: 0 5vw;
 }
