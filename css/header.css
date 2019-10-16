@@ -1,0 +1,108 @@
+
+/* Header */
+
+.nav {
+    background-color: #ddd;
+    padding: 0 2rem;
+    width: 100%;
+    position: fixed;
+}
+
+.nav .nav-menu {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link {
+    position: relative;
+}
+
+.nav .nav-items .nav-link a {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;    
+    font-family: var(--Abel);
+    display: block;
+}
+
+.nav .nav-items .nav-link i {
+    margin-left: .4rem;
+    font-size: .8rem;
+}
+
+.nav .nav-items .nav-link a:hover {
+    background-color: var(--midnight);
+    color: var(--white);
+}
+
+.nav .nav-brand a {
+    font-size: 1.6rem;
+    font-family: var(--Lexend);
+    display: block;
+}    
+
+.nav .social i {
+    padding: 0 .3rem;
+}
+
+.nav .social i:hover {
+    color: #a1c4fd;
+}
+
+.nav .nav-items .sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background-color: var(--white);
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    transform: translateY(10px);
+    transition: all .3s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav .nav-items .has-submenu:hover .sub-menu {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.nav .sub-menu .sub-menu-link:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav  .sub-menu .sub-menu-link a {
+    padding: .8rem .4rem;
+}
+
+.nav .nav-items .archive-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+    left: -400px;
+}
+
+.nav  .archive-items .archive-link {
+    width: 210px;
+}
+
+.nav .archive-items .archive-link a {
+    padding: 1rem;
+}
+
+.nav .archive-items .archive-link p {
+    font-size: .8rem;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.nav .archive-items .archive-link:not(:last-child) {
+    border-bottom: none;
+}
+
