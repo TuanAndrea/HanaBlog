@@ -1,0 +1,64 @@
+
+/* Footer */
+
+.footer {
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer .container > div {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+.footer .container h2 {
+    color: var(--white);
+}
+
+.footer .newsletter .form-element {
+    background: #000;
+    display: inline-block;
+}
+
+.footer .newsletter .form-element input {
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: var(--white);
+    font-family: var(--Josefin);
+    font-size: 1rem;
+}
+
+.footer .newsletter .form-element span {
+    background: var(--sky);
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+.footer .instagram div > img {
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+.footer .follow div a {
+    color: var(--white);
+    padding: 0 .4rem;
+}
+
+.footer .rights {
+    justify-content: center;
+    font-family: var(--Josefin);
+}
+
+.footer .rights h4 span {
+    color: var(--white);
+}
