@@ -1,3 +1,11 @@
+
+/* import all component */
+
+@import url('../css/header.css');
+@import url('../css/site-title.css');
+@import url('../css/blog-carousel.css');
+@import url('../css/post-content.css');
+
 * {
     box-sizing: border-box;
 }
