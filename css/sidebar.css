@@ -24,4 +24,25 @@
     transform: translateX(.6rem);
 }
 
+/* Popular post */
+
+.site-content .sidebar .popular-post .post-content {
+    padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-post h2 {
+    padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info {
+    padding: .4rem .1rem;
+    bottom: 0;
+    left: 9rem;
+    border-radius: 0;
+    background: var(--white);
+}
+
+.site-content .sidebar .popular-post .post-title a {
+    font-size: 1rem;
+}
 
