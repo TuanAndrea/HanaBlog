@@ -62,3 +62,20 @@
 .footer .rights h4 span {
     color: var(--white);
 }
+
+/* Move up button */
+
+.footer .move-up {
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+.footer .move-up span {
+    cursor: pointer;
+    color: var(--midnight);
+}
+
+.footer .move-up span:hover {
+    color: var(--white);    
+}
